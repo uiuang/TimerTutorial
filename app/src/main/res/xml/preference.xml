@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:sample="http://schemas.android.com/apk/res-auto">
+    <com.zsc7454.seekbarpreference.SeekBarPreferenceCompat
+            android:key="com.zsc7454.timer.timer_length"
+            android:title="Timer Length"
+            android:summary="For how many minutes should the timer run?"
+            android:defaultValue="10"
+
+            sample:msbp_minValue="1"
+            sample:msbp_maxValue="60"
+            sample:msbp_interval="1"
+            sample:msbp_measurementUnit="分钟"
+            sample:msbp_dialogEnabled="true"/>
+    />
+</PreferenceScreen>
